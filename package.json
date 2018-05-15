@@ -21,7 +21,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "body-parser": "^1.16.1",
-    "jsonwebtoken": "^7.3.0"
+    "jsonwebtoken": "^8.0.0"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
