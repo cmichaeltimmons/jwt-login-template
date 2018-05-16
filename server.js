@@ -12,7 +12,7 @@ app.get('/db', async (req, res) => {
   try {
     const client = await pool.connect()
     const result = await client.query('SELECT * FROM user');
-    rs.send(result)
+    res.send(result)
     //res.render('pages/db', result);
     client.release();
   } catch (err) {
