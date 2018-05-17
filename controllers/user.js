@@ -11,7 +11,7 @@ module.exports = function(router) {
                 username: 'admin',
                 jwt: jwt.sign({
                     id: 1,
-                }, process.env.JWT_SECRET, { expiresIn: 60*60 })
+                }, process.env.JWT_SECRET, { expiresIn: '365d' })
             });
         } else {
             /*
